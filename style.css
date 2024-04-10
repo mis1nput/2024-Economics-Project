@@ -2,3 +2,75 @@ html {
   height: 100%;
   width: 100%;
 }
+/* Resetting default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling header */
+header {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling main title */
+h1 {
+    color: mediumpurple;
+}
+
+/* Styling navigation */
+nav {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+/* Styling sections */
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+
+/* Styling section titles */
+h2 {
+    color: purple;
+}
+
+/* Styling links */
+a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling footer */
+footer {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    color: gray;
+}
